@@ -28,7 +28,7 @@ This is a feature-rich calculator application developed in Flutter. The app prov
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/flutter-calculator.git
+git clone https://github.com/ranaka01/Calculator_App.git
 cd flutter-calculator
 ```
 
