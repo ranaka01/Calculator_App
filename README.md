@@ -1,16 +1,72 @@
-# calculator
+# Calculator App
 
-A new Flutter project.
+This is a feature-rich calculator application developed in Flutter. The app provides a comprehensive calculator experience with advanced functionality including:
 
-## Getting Started
+- Basic arithmetic operations (+, -, *, /)
+- Percentage calculations
+- Parenthesis support
+- Calculation history
+- Error handling
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Real-time input display
+- Supports complex mathematical expressions
+- History tracking of calculations
+- Error handling for invalid inputs
+- Percentage calculations
+- Bracket management
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Prerequisites
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter SDK
+- Dart SDK
+- Android Studio or VS Code with Flutter extensions
+- Git
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/flutter-calculator.git
+cd flutter-calculator
+```
+
+2. Install dependencies:
+```bash
+flutter pub get
+```
+
+3. Add the required package to `pubspec.yaml`:
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  math_expressions: ^latest_version
+```
+
+## Running the App
+
+```bash
+flutter run
+```
+
+## How to Use
+
+- Tap numbers and operators to build your expression
+- Use "AC" to clear all input
+- Use "C" to delete the last character
+- Press "=" to calculate the result
+- Use "( )" to add parentheses
+- Access calculation history via the history icon in the app bar
+
+## Libraries Used
+
+- `flutter/material.dart`: Core Flutter UI components
+- `math_expressions`: Mathematical expression parsing and evaluation
+
+## Contact
+
+Ranaka Fernando - ranakafernando@gmail.com
+
+Project Link: https://github.com/ranaka01/Calculator_App.git
